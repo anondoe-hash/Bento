@@ -46,7 +46,7 @@ if (CONFIG.changeThemeByOS && CONFIG.autoChangeTheme) {
 	if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 		enableDark();
 	} else {
-		disableDark();
+		enableDark();
 	}
 }
 
