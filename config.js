@@ -11,8 +11,8 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
-	imageBackground: false,
+	name: 'Jamie',
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
@@ -36,7 +36,7 @@ const CONFIG = {
 	defaultLongitude: '-122.419',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
 	changeThemeByOS: true,
